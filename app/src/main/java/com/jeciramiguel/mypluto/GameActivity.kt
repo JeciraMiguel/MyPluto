@@ -49,6 +49,20 @@ class GameActivity : AppCompatActivity() {
             // Update status display
             updatePetStatus()
         }
+
+        // Logic for playing with the pet
+        playButton.setOnClickListener {
+            // Update pet image
+            petImage.setImageResource(R.drawable.dog_happy)
+
+            // Update status values
+            health = health + 20
+            hunger = hunger - 10
+            cleanliness = cleanliness - 10
+
+            // Update status display
+            updatePetStatus()
+        }
     }
 
     // Update pet status display
