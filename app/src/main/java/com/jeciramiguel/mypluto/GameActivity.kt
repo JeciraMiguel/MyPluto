@@ -23,6 +23,20 @@ class GameActivity : AppCompatActivity() {
         val cleanButton: Button = findViewById(R.id.cleanButton)
         val playButton: Button = findViewById(R.id.playButton)
 
+        // Logic for feeding the pet
+        feedButton.setOnClickListener {
+            // Update pet image
+            petImage.setImageResource(R.drawable.dog_eating)
+
+            // Update status values
+            health = health - 10
+            hunger = hunger + 20
+            cleanliness = cleanliness - 5
+
+            // Update status display
+            updatePetStatus()
+        }
+
     }
 
     // Update pet status display
