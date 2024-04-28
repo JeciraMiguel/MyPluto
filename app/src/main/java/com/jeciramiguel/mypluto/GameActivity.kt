@@ -37,6 +37,18 @@ class GameActivity : AppCompatActivity() {
             updatePetStatus()
         }
 
+        // Logic for cleaning the pet
+        cleanButton.setOnClickListener {
+            // Update pet image
+            petImage.setImageResource(R.drawable.dog_clean)
+
+            // Update status values
+            health = health - 5
+            cleanliness = cleanliness + 20
+
+            // Update status display
+            updatePetStatus()
+        }
     }
 
     // Update pet status display
