@@ -124,10 +124,10 @@
                 android:layout_marginHorizontal="6dp"
                 >
                 <TextView
-                    android:id="@+id/titleClear"
+                    android:id="@+id/titleClean"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Clear"
+                    android:text="Clean"
                     android:textAlignment="center"
                     android:textColor="@color/brown"
                     android:textSize="18dp"
@@ -136,7 +136,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/valueClear"
+                    android:id="@+id/valueClean"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"

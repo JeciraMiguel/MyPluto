@@ -69,7 +69,7 @@ class GameActivity : AppCompatActivity() {
     private fun updatePetStatus() {
         val healthTextView: TextView = findViewById(R.id.valueHappy)
         val hungerTextView: TextView = findViewById(R.id.valueHunger)
-        val cleanlinessTextView: TextView = findViewById(R.id.valueClear)
+        val cleanlinessTextView: TextView = findViewById(R.id.valueClean)
 
         // Set status values in corresponding TextViews
         healthTextView.text = "$health"
