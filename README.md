@@ -22,7 +22,7 @@ My Pluto main goal is to provide users with a fun and educational experience of 
 
 ### 🌐YouTube link
 
-[Go to the youtube "My Pluto - video"](https://www.youtube.com/watch?v=k-NKGtJs0s0/)
+[Go to the youtube "My Pluto - video"](https://www.youtube.com/shorts/TM22RSGOwMw)
 
 ## Features
 
