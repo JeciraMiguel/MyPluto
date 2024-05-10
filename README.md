@@ -9,20 +9,20 @@ My Pluto main goal is to provide users with a fun and educational experience of 
 ## Screenshots
 
 ![Screenshot 1](screenshots/screenshot_main.png)  
-*Screenshot 1: Main screen showing Pluto's status and buttons for interaction.*
+_Screenshot 1: Main screen showing Pluto's status and buttons for interaction._
 
 ![Screenshot 2](screenshots/screenshot_feeding.png)  
-*Screenshot 2: Feeding Pluto.*
+_Screenshot 2: Feeding Pluto._
 
 ![Screenshot 3](screenshots/screenshot_cleaning.png)  
-*Screenshot 3: Cleaning Pluto.*
+_Screenshot 3: Cleaning Pluto._
 
 ![Screenshot 4](screenshots/screenshot_playing.png)  
-*Screenshot 4: Playing with Pluto.*
+_Screenshot 4: Playing with Pluto._
 
 ### 🌐YouTube link
 
-[Go to the youtube "My Pluto - video"](https://www.youtube.com/watch?v=k-NKGtJs0s0/)
+[Go to the youtube "My Pluto - video"](https://www.youtube.com/shorts/TM22RSGOwMw/)
 
 ## Features
 

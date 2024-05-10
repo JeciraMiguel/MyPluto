@@ -36,8 +36,14 @@ class GameActivity : AppCompatActivity() {
             hunger = hunger + 20
             cleanliness = cleanliness - 5
 
+            // Check status value limits
+            checkStatusLimits()
+
             // Update status display
             updatePetStatus()
+
+            // Show feedback message
+            showToast("You fed Pluto.")
         }
 
         // Logic for cleaning the pet
@@ -49,8 +55,14 @@ class GameActivity : AppCompatActivity() {
             health = health - 5
             cleanliness = cleanliness + 20
 
+            // Check status value limits
+            checkStatusLimits()
+
             // Update status display
             updatePetStatus()
+
+            // Show feedback message
+            showToast("You cleaned Pluto.")
         }
 
         // Logic for playing with the pet
@@ -63,8 +75,14 @@ class GameActivity : AppCompatActivity() {
             hunger = hunger - 10
             cleanliness = cleanliness - 10
 
+            // Check status value limits
+            checkStatusLimits()
+
             // Update status display
             updatePetStatus()
+
+            // Show feedback message
+            showToast("You played with Pluto.")
         }
     }
 
@@ -80,4 +98,16 @@ class GameActivity : AppCompatActivity() {
         cleanlinessTextView.text = "$cleanliness"
     }
 
+    // Check and adjust status values to stay within limits
+    private fun checkStatusLimits() {
+        // Ensure status values are within the range of 0 to 100
+        health = health.coerceIn(0, 100)
+        hunger = hunger.coerceIn(0, 100)
+        cleanliness = cleanliness.coerceIn(0, 100)
+    }
+
+    // Show toast message
+    private fun showToast(message: String) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+    }
 }
